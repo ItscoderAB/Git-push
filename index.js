@@ -1,5 +1,6 @@
 import http from "http";
 import fs from "fs";
+const localhost = "127.0.0.1";
 const port = process.env.PORT || 3000;
 const server = http.createServer((req,res)=>{
     console.log(req.url);
